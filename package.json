@@ -1,0 +1,14 @@
+{
+  "name": "movie",
+  "version": "0.0.0",
+  "description": "movie management system ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts"
+  },
+  "author": "Rithesh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}
