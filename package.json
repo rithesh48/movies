@@ -1,14 +1,21 @@
 {
-  "name": "movie",
+  "name": "reminder",
   "version": "0.0.0",
-  "description": "movie management system ",
+  "description": "creating a reminder for daily tasks",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.ts"
+    "start": "tsx src/index.ts"
   },
   "author": "Rithesh",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
   }
 }
